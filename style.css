@@ -72,3 +72,17 @@ a:hover{
     color: #62d5e8;             /* 導覽列超連結『滑鼠滑過』文字顏色設定*/
     text-decoration: underline; /* 導覽列超連結『滑鼠滑過』文字有底線裝飾效果*/
 }
+h1{
+	animation-duration: 3s;
+	animation-name:slidein;
+}
+@keyframes slidein{
+	from{
+		padding-left: 100%;
+		width: 300%;
+	}
+	to{
+		padding-left: 0%;
+		width: 100%;
+	}
+}
